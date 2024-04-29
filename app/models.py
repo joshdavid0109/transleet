@@ -1,6 +1,11 @@
 from .transformers_utils import load_model_and_tokenizer
 
+#LOAD TOKENIZERS AND MODELS
+
+#ILOCANO TO ENGLISH
 ilo_en_tokenizer, ilo_en_model = load_model_and_tokenizer("models/opus-mt-ilo-en")
+
+#ENGLISH TO ILOCANO
 en_ilo_tokenizer, en_ilo_model = load_model_and_tokenizer("models/opus-mt-en-ilo")
 
 def translate_text(text, target_language):
