@@ -1,0 +1,7 @@
+POST http://localhost:5000/translate
+Content-Type: application/json
+
+{
+    "text": "good morning",
+    "target_language": "ilo"
+}
