@@ -1,6 +1,7 @@
 # bi translation app
 ```
  python -m pip install flask
+ python -m pip install flask-cors
  ```
 
 to run the flask API, go to project directory and type on terminal:
